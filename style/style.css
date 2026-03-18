@@ -1,0 +1,251 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f4f4f4;
+}
+
+/* FONTS */
+
+@font-face {
+  font-family: 'Pemusiran Regular';
+  src: url('../fonts/Pemusiran Regular.ttf') format('truetype'); /* Path to your TTF file */
+  font-weight: normal; /* Optional: define weight */
+  font-style: normal; /* Optional: define style */
+}
+
+@font-face {
+  font-family: 'Aller Regular';
+  src: url('../fonts/Aller_Std_Rg.ttf') format('truetype'); /* Path to your TTF file */
+  font-weight: normal; /* Optional: define weight */
+  font-style: normal; /* Optional: define style */
+}
+
+@font-face {
+  font-family: 'TAMIL1';
+  src: url('../fonts/TAMIL-UNI001.ttf') format('truetype'); /* Path to your TTF file */
+  font-weight: normal; /* Optional: define weight */
+  font-style: normal; /* Optional: define style */
+}
+
+@font-face {
+  font-family: 'TAMIL2';
+  src: url('../fonts/TAMIL-UNI002.ttf') format('truetype'); /* Path to your TTF file */
+  font-weight: normal; /* Optional: define weight */
+  font-style: normal; /* Optional: define style */
+}
+
+@font-face {
+  font-family: 'TAMIL5';
+  src: url('../fonts/TAMIL-UNI005.ttf') format('truetype'); /* Path to your TTF file */
+  font-weight: normal; /* Optional: define weight */
+  font-style: normal; /* Optional: define style */
+}
+
+@font-face {
+  font-family: 'TAMIL13';
+  src: url('../fonts/TAMIL-UNI013.ttf') format('truetype'); /* Path to your TTF file */
+  font-weight: normal; /* Optional: define weight */
+  font-style: normal; /* Optional: define style */
+}
+
+/* NAVBAR */
+
+header {
+    background: #111;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 40px;
+}
+
+.logo {
+	font-family: Pemusiran Regular;
+    color: white;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.nav-links {
+	font-family: 'TAMIL13';
+	font-size: 28 px;
+    list-style: none;
+    display: flex;
+    gap: 25px;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+}
+
+.nav-links li a:hover {
+    color: #00bcd4;
+}
+
+.logo a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+}
+
+.logo a:hover {
+    color: #00bcd4;
+}
+
+/* HERO SECTION */
+
+.hero {
+    height: 350px;
+    background: url("https://picsum.photos/1600/600") center/cover no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero h1 {
+    color: white;
+    background: rgba(0,0,0,0.6);
+    padding: 20px 40px;
+    border-radius: 5px;
+}
+
+
+/* BLOG SECTION */
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+    padding: 40px 0;
+}
+
+.blog-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px,1fr));
+    gap: 25px;
+}
+
+.blog-card {
+    background: white;
+    border-radius: 6px;
+    overflow: hidden;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+.blog-card img {
+    width: 100%;
+}
+
+.blog-content {
+    padding: 20px;
+}
+
+.blog-content h3 {
+    margin-top: 0;
+}
+
+.read-more {
+    text-decoration: none;
+    color: #00bcd4;
+}
+
+/* BLOG PAGE */
+
+.blog-page {
+padding: 10px 20px;
+background: #ffffff;
+}
+
+.blog-container {
+max-width: 900px;
+margin: auto;
+line-height: 1.7;
+}
+
+.blog-title {
+font-size: 36px;
+margin-bottom: 10px;
+}
+
+.blog-date {
+color: gray;
+margin-bottom: 30px;
+}
+
+.blog-container h2 {
+margin-top: 35px;
+}
+
+.blog-container h3 {
+margin-top: 25px;
+}
+
+.blog-image {
+width: 100%;
+margin: 0;
+border-radius: 6px;
+}
+
+.blog-image-title {
+  font-family: 'TAMIL5';
+  font-size: 20px;
+  padding: 2px;
+  text-align: center;
+}
+
+/* List CSS */
+
+.wrapper {
+	max-width: 100%;
+	margin: 0 auto;
+}
+
+
+.wrapper h1 {
+	font-family: 'TAMIL5';
+}
+
+.wrapper ol {
+	font-family: 'TAMIL5';
+	font-size: 26px;
+	text-align: center;
+	list-style: none;
+	padding: 0;
+}
+
+.wrapper li + li {
+	margin-top: 1rem;
+}
+
+.wrapper li {
+	font-size: 28 px;
+	align-items: center;
+	gap: 1rem;
+	background: aliceblue;
+	padding: 1.5rem;
+	border-radius: 1rem;
+	width: calc(100% - 2rem);
+	box-shadow: 0.25rem 0.25rem 0.75rem rgb(0 0 0 / 0.1);
+}
+
+/* FOOTER */
+
+footer {
+    background: #111;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.copyright-section {
+	font-family: Aller Regular;
+	font-size: 16px;
+}
