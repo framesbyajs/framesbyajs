@@ -1,109 +1,108 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>My Blog Landing Page</title>
 
-    <link rel="stylesheet" href="css/style.css">
-</head>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
 
-<body>
+  <body>
+    <!-- ---- NAVBAR ---- -->
+    <header>
+      <div class="navbar">
+        <div class="logo"><a href="../index.html">FramesbyAjS</a></div>
 
-<header>
+        <ul class="nav-links">
+          <li><a href="#">மகாமகம்</a></li>
+          <li><a href="#">சைவ தலங்கள்</a></li>
+          <li><a href="#">வைணவ தலங்கள்</a></li>
+          <li><a href="#">பஞ்ச குரோத தலங்கள்</a></li>
+          <li><a href="others.html">திருவிழாக்கள் & சிறப்பம்சங்கள்</a></li>
+        </ul>
+      </div>
+    </header>
 
-<div class="navbar">
+    <!-- ---- HERO SECTION ===== -->
+    <section class="hero">
+      <!--
+      <img
+        src="images/Hero_Section_IMG.png"
+        alt="FramesbyAjS - A Visual Journey by AjS"
+        width="25%"
+        height="auto"
+      /> -->
+      <div id="captioned-gallery">
+        <figure class="slider">
+          <figure>
+            <img src="images/Slider_1.jpg" alt />
+            <figcaption>ஆதிகும்பேஸ்வரர் இராஜகோபுரம்</figcaption>
+          </figure>
+          <figure>
+            <img src="images/Slider_2.jpg" alt />
+            <figcaption>திருவிடைமருதூர் வெள்ளி ரிஷபம், திருத்தேர்</figcaption>
+          </figure>
+          <figure>
+            <img src="images/Slider_3.jpg" alt />
+            <figcaption>சார்ங்கபாணி சித்திரை திருத்தேர்</figcaption>
+          </figure>
+          <figure>
+            <img src="images/Slider_4.jpg" alt />
+            <figcaption>திருவாரூர் ஆழித்தேர்</figcaption>
+          </figure>
+          <figure>
+            <img src="images/Slider_5.jpg" alt />
+            <figcaption>சக்கராப்பள்ளி கண்ணாடி பல்லக்கு</figcaption>
+          </figure>
+        </figure>
+      </div>
+    </section>
 
-	<div class="logo"><a href="../index.html">FramesbyAjS</a></div>
-
-	<ul class="nav-links">
-	<li><a href="#">மகாமகம்</a></li>
-	<li><a href="#">சைவ தலங்கள்</a></li>
-	<li><a href="#">வைணவ தலங்கள்</a></li>
-	<li><a href="#">பஞ்ச குரோத தலங்கள்</a></li>
-	<li><a href="others.html">திருவிழாக்கள் & சிறப்பம்சங்கள்</a></li>
-	</ul>
-
-</div>
-
-</header>
-
-
-<section class="hero">
-
-    <h1>Welcome to My Blog</h1>
-
-</section>
-
-
-
-<section class="container">
-
-    <div class="blog-grid">
-
+    <!-- ---- BLOGS SECTION ---- -->
+    <section class="container">
+      <div class="blog-grid">
         <div class="blog-card">
+          <img src="https://picsum.photos/400/250" alt="" />
 
-            <img src="https://picsum.photos/400/250" alt="">
+          <div class="blog-content">
+            <h3>Blog Title One</h3>
 
-            <div class="blog-content">
+            <p>This is a short description of the blog post.</p>
 
-                <h3>Blog Title One</h3>
-
-                <p>This is a short description of the blog post.</p>
-
-                <a href="#" class="read-more">Read More</a>
-
-            </div>
-
+            <a href="#" class="read-more">Read More</a>
+          </div>
         </div>
 
-
         <div class="blog-card">
+          <img src="https://picsum.photos/401/250" alt="" />
 
-            <img src="https://picsum.photos/401/250" alt="">
+          <div class="blog-content">
+            <h3>Blog Title Two</h3>
 
-            <div class="blog-content">
+            <p>This is a short description of the blog post.</p>
 
-                <h3>Blog Title Two</h3>
-
-                <p>This is a short description of the blog post.</p>
-
-                <a href="#" class="read-more">Read More</a>
-
-            </div>
-
+            <a href="#" class="read-more">Read More</a>
+          </div>
         </div>
 
-
         <div class="blog-card">
+          <img src="https://picsum.photos/402/250" alt="" />
 
-            <img src="https://picsum.photos/402/250" alt="">
+          <div class="blog-content">
+            <h3>Blog Title Three</h3>
 
-            <div class="blog-content">
+            <p>This is a short description of the blog post.</p>
 
-                <h3>Blog Title Three</h3>
-
-                <p>This is a short description of the blog post.</p>
-
-                <a href="#" class="read-more">Read More</a>
-
-            </div>
-
+            <a href="#" class="read-more">Read More</a>
+          </div>
         </div>
+      </div>
+    </section>
 
-    </div>
-
-</section>
-
-
-
-<footer>
-
-	<p class="copyright-section">© 2026 FramesbyAjS. All Rights Reserved.</p>
-
-</footer>
-
-</body>
-
+    <!-- ---- FOOTER SECTION ---- -->
+    <footer>
+      <p class="copyright-section">© 2026 FramesbyAjS. All Rights Reserved.</p>
+    </footer>
+  </body>
 </html>
